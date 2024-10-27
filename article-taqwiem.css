@@ -1,0 +1,292 @@
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Arial;
+} 
+.h1-judul {
+  margin: 2% 2% 2% 2%;
+}
+.container {
+  color: var(--text-all-articel);
+}
+.dark-mode .container {
+  color:#000;
+}
+.pTglPembuatan {
+  color: #6c757d; 
+  font-size: 13px;
+  margin-left: 9px;
+}
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: 20rem;
+  text-align: center;
+  color: #f7f7f7;
+  background-image: url("fotopustakadarfik.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+} 
+ @media only screen and (max-width: 600px) {
+  header.masthead {
+   padding-top: 12rem;
+   padding-bottom: 0rem;
+   }
+ } /*keterangan foto */
+.keteranganFoto {
+  color: #6c757d;
+  font-size: 13px;
+  margin-left: 1px;
+} /* daftar isi */
+.li-isi .scroll {
+  text-decoration: none;
+  color: var(--text-color) ;
+}
+.dark-mode .li-isi a {
+  color: #000;
+}
+.li-isi {
+  margin-bottom: 15px;
+}
+/* scroll keatas */
+#myBtn {
+  display: none;
+  position: fixed; 
+  bottom: 150px;  
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: #009788; 
+  color: #f2f2f2; 
+  cursor: pointer; 
+  padding: 10px; 
+  border-radius: 10px; 
+  font-size: 18px; 
+}
+.dark-mode #myBtn {
+  background-color: #075e54; 
+  color: #f2f2f2; 
+}
+.none {
+  display: none;
+} /*daftar isi */
+.daftar-isi {
+  margin-top: 70px;
+  padding: 5px;
+  background-color: var(--daftar-isi);
+  margin: 5% 30% 5% 3%;
+  border-radius: 0% 20% 3% 5%;
+  font-size: 14px;
+  color: var(--text-color);
+}
+.hrJudul{
+  border: none;
+  border-top: 1px solid;
+  color: #bbb;
+  margin-left: 9px;
+}
+.hrDaftarIsi {
+  border: none;
+  border-top: 5px solid;
+  width: 30%;
+  margin-bottom: 10px;
+  color: #009788;
+  margin-left: 8px;
+}
+ .h1-daftar-isi {
+   margin-bottom: 1px;
+   margin-top: 10px;
+   font-size: 20px;
+   margin-left: 10px;
+ }
+ .ol-isi{
+  margin-left: 40px;
+}
+.jarak {
+  margin-top: 80px;
+  text-align: center;
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: 10px;
+}
+ @media only screen and (max-width: 600px) {
+   .judul {
+     font-size: 15px;
+   }
+ }
+ .divBacaJuga {
+  margin-top: 0px;
+  background-color: #eaeaea;
+  margin: 5% 30% 5% 5%;
+  border-radius: 0% ;
+  font-size: 14px;
+}
+ .divBacaJuga .h1BacaJuga {
+  margin-left: 9px;
+  padding-top: 10px;
+  font-size: 20px;
+ }
+ .divBacaJuga  .pBacaJuga {
+  margin-left: 9px;
+  padding-top: 10px;
+  font-size: 20px;
+ } /* article 1 (isi) */
+.all-articel {
+  margin-top: 70px;
+  padding: 5px;
+  background-color: var(--all-articel);
+  margin: 4% 4%;
+  color: var(--text-all-articel);
+}
+ @media only screen and (max-width: 600px) {
+   .all-articel {
+     margin: 2%;
+   }
+ }
+.all-articel > .h1-articel {
+  margin-right: 9px;
+  padding-top: 10px;
+  font-size: 20px;
+  text-align: right;
+}
+.all-articel > .h1-articell {
+  margin-left: 9px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.all-articel > .p-articel {
+  margin: 10px;
+  font-size: 10px;
+}
+ @media only screen and (max-width: 600px) {
+.all-articel > .p-articel {
+  font-size: 15px;
+  }
+} /* article 2 (pemberitahuan) */
+.all-articel2 {
+  margin-top: 0px;
+  padding: 5px;
+  background-color: var(--all-articel2);
+  margin: 6% 6%;
+  color: var(--al-articel);
+}
+ @media only screen and (max-width: 600px) {
+   .all-articel2 {
+     margin: 3%;
+   }
+ }
+.dark-mode .all-articel2 {
+  background-color: var(--all-articel2);   /*#f2f2f2*/
+  color: var(--al-articel);
+}
+.all-articel2 > .h1-articel2 {
+  margin-left: 9px;
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+.all-articel2 > .h2-articel2 {
+  margin: 10px;
+  font-size: 10px;
+}
+.h2-articel2 .a-articel2 {
+  text-decoration: none;
+  color: #009788;
+}
+ @media only screen and (max-width: 600px) {
+.all-articel2 > .h2-articel2 {
+  font-size: 16px;
+  }
+} /* article 3 (pemberitahuan) */
+.all-articel3 {
+  margin-top: 70px;
+  padding: 5px;
+  background-color: #202c33;
+  margin: 4% 4%;
+  color: #eaeaea;
+}
+ @media only screen and (max-width: 600px) {
+   .all-articel3 {
+     margin: 5%;
+   }
+ }
+.dark-mode .all-articel3 {
+  background-color: #fff;
+  color: #000;
+}
+.all-articel3 > .h1-articel3 {
+  margin-left: 9px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.all-articel3 > .p-articel3 {
+  margin: 10px;
+  font-size: 10px;
+}
+ @media only screen and (max-width: 600px) {
+.all-articel3 > .p-articel3 {
+  font-size: 15px;
+  }
+}
+          /* mengatur bagian table */
+.table-harokat {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 12px;
+}
+
+.th-harokat, .td-harokat {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+  /*link DM instagram*/
+  .a-link-web {
+  text-decoration: none; 
+  color: #3e8da8;
+}
+.dark-mode .a-link-web {
+  color:#009788;
+}
+/* next */
+ .previous {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 30px 30px 30px 30px;
+}
+.next {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  margin-left: 60px;
+}
+.previous {
+  background-color: #075E54;
+  color: white;
+}
+
+.next {
+  background-color: #e91e63;
+  color: #fff;
+}
+
+.round {
+  border-radius: 50%;
+}
+.dark-mode .previous {
+  background-color: #009788;
+}
+.dark-mode .next {
+  background-color: #fff;
+  color: #000;
+}
